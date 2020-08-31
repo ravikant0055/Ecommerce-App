@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editborder"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+            android:text="  Ayushya care international"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:paddingLeft="20dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editborder"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:text="  tribhuvan98@gmail.com"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:paddingLeft="20dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editborder"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+            android:text="+918840577930"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:paddingLeft="20dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/editborder"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_location"
+            android:text="Ayushya care international
+Room number 413 Ganges mall 4th floor
+Harish Ganj, Tatmil chauraha Kanpur Uttar Pradesh 208004"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:paddingLeft="20dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
