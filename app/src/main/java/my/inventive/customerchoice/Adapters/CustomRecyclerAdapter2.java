@@ -1,4 +1,4 @@
-package my.inventive.customerchoice;
+package my.inventive.customerchoice.Adapters;
 
 
 import android.content.Context;
@@ -14,6 +14,9 @@ import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import my.inventive.customerchoice.CartActivity;
+import my.inventive.customerchoice.Item;
+import my.inventive.customerchoice.Myhelper;
 import my.inventive.customerchoice.R;
 import com.squareup.picasso.Picasso;
 

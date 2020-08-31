@@ -1,4 +1,4 @@
-package my.inventive.customerchoice;
+package my.inventive.customerchoice.Adapters;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -17,6 +17,10 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import my.inventive.customerchoice.AttaAndOtherModel;
+import my.inventive.customerchoice.DescriptionActivity;
+import my.inventive.customerchoice.ItemClickListner;
+import my.inventive.customerchoice.Myhelper;
 import my.inventive.customerchoice.R;
 import com.squareup.picasso.Picasso;
 

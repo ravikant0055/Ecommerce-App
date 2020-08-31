@@ -20,7 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import my.inventive.customerchoice.R;
+import my.inventive.customerchoice.Adapters.CustomRecyclerAdapter2;
 
 import java.util.ArrayList;
 import java.util.List;

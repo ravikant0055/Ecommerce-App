@@ -1,4 +1,4 @@
-package my.inventive.customerchoice;
+package my.inventive.customerchoice.Adapters;
 
 
 import android.content.Context;
@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import my.inventive.customerchoice.Order;
 import my.inventive.customerchoice.R;
 import com.squareup.picasso.Picasso;
 

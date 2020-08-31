@@ -36,7 +36,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.HurlStack;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import my.inventive.customerchoice.R;
+
+import my.inventive.customerchoice.Adapters.OrderAdapter;
 import my.inventive.customerchoice.fcm.ServerKey;
 
 import com.google.gson.Gson;

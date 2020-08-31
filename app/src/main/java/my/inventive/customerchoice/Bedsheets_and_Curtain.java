@@ -2,10 +2,7 @@ package my.inventive.customerchoice;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -25,6 +22,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+
+import my.inventive.customerchoice.Adapters.AttaAndOtherAdapter;
 
 public class Bedsheets_and_Curtain extends AppCompatActivity {
     private static final String apiurl="https://simplyfied.co.in/groceryapp/fetchadditem.php";

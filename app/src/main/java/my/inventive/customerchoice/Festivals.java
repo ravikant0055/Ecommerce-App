@@ -23,6 +23,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+import my.inventive.customerchoice.Adapters.AttaAndOtherAdapter;
+
 public class Festivals extends AppCompatActivity {
 
     private static final String apiurl = "https://simplyfied.co.in/groceryapp/fetchadditem.php";

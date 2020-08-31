@@ -56,6 +56,8 @@ import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import my.inventive.customerchoice.Adapters.PackagesAdapter;
+
 public class MainActivity extends AppCompatActivity  implements  NavigationView
         .OnNavigationItemSelectedListener{
     GridView gridView;

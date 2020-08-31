@@ -1,4 +1,4 @@
-package my.inventive.customerchoice;
+package my.inventive.customerchoice.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
