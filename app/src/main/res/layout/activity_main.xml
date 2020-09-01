@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="#e5e5e5"
     android:layout_height="match_parent"
-    tools:context="my.inventive.customerchoice.MainActivity">
+    tools:context="my.inventive.RozanaFresh.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         app:titleTextColor="@color/white"

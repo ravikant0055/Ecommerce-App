@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="my.inventive.customerchoice">
+    package="my.inventive.RozanaFresh">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,34 +18,34 @@
         android:theme="@style/AppTheme"
         tools:ignore="HardcodedDebugMode">
 
-        <activity android:name=".ContactUs"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".Website"></activity>
-        <activity android:name=".Ayushya_Discount_sale" />
-        <activity android:name=".Bedsheets_and_Curtain" />
-        <activity android:name=".Fruits_And_Vegetable" />
-        <activity android:name=".Food_Supplements" />
-        <activity android:name=".BreadandButter" />
-        <activity android:name=".ChipsAndChocolate" />
-        <activity android:name=".BeveragesandHealthDrink" />
-        <activity android:name=".BreakFastAndCreals" />
-        <activity android:name=".MilkAndDairyProducts" />
-        <activity android:name=".Baking" />
-        <activity android:name=".ReadyMadeMeals" />
-        <activity android:name=".NamkeensAndBiscut" />
-        <activity android:name=".JamesHoneyAndSpreads" />
-        <activity android:name=".KetchupsAndSoups" />
-        <activity android:name=".PastaAndNoodles" />
-        <activity android:name=".OrderActivity" android:parentActivityName=".CartActivity"/>
-        <activity android:name=".MosqitoAndRespellents" />
-        <activity android:name=".SkinAndFaceCare" />
-        <activity android:name=".DisWashers" />
-        <activity android:name=".PoojaNeeds" />
-        <activity android:name=".BathAndWashCare" />
-        <activity android:name=".MouthAndMansCare" />
-        <activity android:name=".MyorderItemList" />
-        <activity android:name=".MyorderActivity" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="my.inventive.RozanaFresh.ContactUs"
+            android:parentActivityName="my.inventive.RozanaFresh.MainActivity"></activity>
+        <activity android:name="my.inventive.RozanaFresh.Website"></activity>
+        <activity android:name="my.inventive.RozanaFresh.Ayushya_Discount_sale" />
+        <activity android:name="my.inventive.RozanaFresh.Bedsheets_and_Curtain" />
+        <activity android:name="my.inventive.RozanaFresh.Fruits_And_Vegetable" />
+        <activity android:name="my.inventive.RozanaFresh.Food_Supplements" />
+        <activity android:name="my.inventive.RozanaFresh.BreadandButter" />
+        <activity android:name="my.inventive.RozanaFresh.ChipsAndChocolate" />
+        <activity android:name="my.inventive.RozanaFresh.BeveragesandHealthDrink" />
+        <activity android:name="my.inventive.RozanaFresh.BreakFastAndCreals" />
+        <activity android:name="my.inventive.RozanaFresh.MilkAndDairyProducts" />
+        <activity android:name="my.inventive.RozanaFresh.Baking" />
+        <activity android:name="my.inventive.RozanaFresh.ReadyMadeMeals" />
+        <activity android:name="my.inventive.RozanaFresh.NamkeensAndBiscut" />
+        <activity android:name="my.inventive.RozanaFresh.JamesHoneyAndSpreads" />
+        <activity android:name="my.inventive.RozanaFresh.KetchupsAndSoups" />
+        <activity android:name="my.inventive.RozanaFresh.PastaAndNoodles" />
+        <activity android:name="my.inventive.RozanaFresh.OrderActivity" android:parentActivityName="my.inventive.RozanaFresh.CartActivity"/>
+        <activity android:name="my.inventive.RozanaFresh.MosqitoAndRespellents" />
+        <activity android:name="my.inventive.RozanaFresh.SkinAndFaceCare" />
+        <activity android:name="my.inventive.RozanaFresh.DisWashers" />
+        <activity android:name="my.inventive.RozanaFresh.PoojaNeeds" />
+        <activity android:name="my.inventive.RozanaFresh.BathAndWashCare" />
+        <activity android:name="my.inventive.RozanaFresh.MouthAndMansCare" />
+        <activity android:name="my.inventive.RozanaFresh.MyorderItemList" />
+        <activity android:name="my.inventive.RozanaFresh.MyorderActivity" />
+        <activity android:name="my.inventive.RozanaFresh.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,27 +53,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".StartActivity"
+            android:name="my.inventive.RozanaFresh.StartActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".Festivals"></activity>
-        <activity android:name=".CoviItem"></activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".DescriptionActivity" android:parentActivityName=".MainActivity" />
-        <activity android:name=".LaundryAndDetergentActivity" />
-        <activity android:name=".MasalaActivity" />
-        <activity android:name=".HairCareActivity" />
-        <activity android:name=".SaltAndSugarActivity" />
-        <activity android:name=".TeaAndCoffee" />
-        <activity android:name=".OilsAndGhee" />
-        <activity android:name=".RiceAndOtherGains" />
-        <activity android:name=".AttaAndOtherActivity" />
-        <activity android:name=".CartActivity" android:parentActivityName=".MainActivity"/>
+        <activity android:name="my.inventive.RozanaFresh.Festivals"></activity>
+        <activity android:name="my.inventive.RozanaFresh.CoviItem"></activity>
+        <activity android:name="my.inventive.RozanaFresh.RegisterActivity" />
+        <activity android:name="my.inventive.RozanaFresh.LoginActivity" />
+        <activity android:name="my.inventive.RozanaFresh.DescriptionActivity" android:parentActivityName="my.inventive.RozanaFresh.MainActivity" />
+        <activity android:name="my.inventive.RozanaFresh.LaundryAndDetergentActivity" />
+        <activity android:name="my.inventive.RozanaFresh.MasalaActivity" />
+        <activity android:name="my.inventive.RozanaFresh.HairCareActivity" />
+        <activity android:name="my.inventive.RozanaFresh.SaltAndSugarActivity" />
+        <activity android:name="my.inventive.RozanaFresh.TeaAndCoffee" />
+        <activity android:name="my.inventive.RozanaFresh.OilsAndGhee" />
+        <activity android:name="my.inventive.RozanaFresh.RiceAndOtherGains" />
+        <activity android:name="my.inventive.RozanaFresh.AttaAndOtherActivity" />
+        <activity android:name="my.inventive.RozanaFresh.CartActivity" android:parentActivityName="my.inventive.RozanaFresh.MainActivity"/>
         <activity
-            android:name=".MainActivity"
+            android:name="my.inventive.RozanaFresh.MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
-        <service android:name=".fcm.FirebaseMessageReceiver">
+        <service android:name="my.inventive.RozanaFresh.fcm.FirebaseMessageReceiver">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
