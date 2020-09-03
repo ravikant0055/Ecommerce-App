@@ -234,7 +234,7 @@ public class OrderActivity extends AppCompatActivity {
                     else am=""+totalPrice;
                     String note="Grocery Payment";
                     String name=shared.getString("name","");
-                    String upid="7836830049@upi";
+                    String upid="7210069362@upi";
                     payUsingUpi(am, upid, name, note);
                 }
                 else
